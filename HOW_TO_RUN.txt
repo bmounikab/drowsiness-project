@@ -1,0 +1,30 @@
+DROWSINESS ALERT APP — HOW TO RUN ON WINDOWS
+=============================================
+
+REQUIREMENTS
+------------
+- Node.js (v18 or higher): https://nodejs.org
+- npm (comes with Node.js)
+
+STEPS
+-----
+1. Open Command Prompt in this folder (shift+right-click → Open in Terminal)
+
+2. Install dependencies:
+   npm install
+
+3. Start the app:
+   npm run dev
+
+4. Open your browser and go to:
+   http://localhost:5173
+
+5. Click START and allow camera access.
+
+STATES
+------
+  ACTIVE   — eyes open, alert (green)
+  DROWSY   — eyes partially closed (yellow + beep)
+  SLEEPING — eyes fully closed (red flashing + loud beep)
+
+Press ESC or click STOP to end the session.
